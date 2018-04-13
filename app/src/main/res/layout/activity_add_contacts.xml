@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shafkatislam.finalproject.AddContactsActivity"
+    android:background="@drawable/bg">
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgrect"
+        >
+
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp">
+
+
+                <TextView
+                    android:id="@+id/create"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="67dp"
+                    android:text="Save Information"
+                    android:textColor="#ffffff"
+                    android:textSize="23dp" />
+
+                <Button
+                    android:id="@+id/btn_save"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/linearLayout3"
+                    android:background="@drawable/rect"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:text="Continue"
+                    android:textColor="#ffffff"
+                    android:textSize="19dp" />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="-70dp"
+                    android:id="@+id/linearLayout3">
+
+                    <EditText
+                        android:id="@+id/etxt_name"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:background="@drawable/rect1"
+                        android:layout_marginTop="220dp"
+                        android:hint="Name"
+                        android:textColor="#fff"
+                        android:textColorHint="#ffffff"
+                        android:paddingLeft="20dp"
+                        android:drawableLeft="@drawable/user"
+                        android:paddingTop="16dp"
+                        android:paddingBottom="16dp"
+                        android:drawablePadding="16dp">
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/etxt_cell"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/rect1"
+                        android:drawableLeft="@drawable/email"
+                        android:drawablePadding="16dp"
+                        android:hint="Cell"
+                        android:paddingBottom="16dp"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="16dp"
+                        android:textColor="#fff"
+                        android:textColorHint="#ffffff"
+
+                        ></EditText>
+
+                    <EditText
+                        android:id="@+id/etxt_email"
+                        android:textColor="#fff"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:background="@drawable/rect1"
+                        android:layout_marginTop="20dp"
+                        android:hint="Email"
+                        android:textColorHint="#ffffff"
+                        android:drawableLeft="@drawable/ic_mail_outline_black_24dp"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="16dp"
+                        android:paddingBottom="16dp"
+                        android:drawablePadding="16dp">
+                    </EditText>
+
+                    <ImageView
+                        android:id="@+id/imageViewId"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        />
+
+                    <ZoomControls
+                        android:id="@+id/zoomControlId"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        >
+
+                    </ZoomControls>
+
+                    <Button
+                        android:id="@+id/btn_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginBottom="25dp"
+                        android:background="@drawable/rect1"
+                        android:textAllCaps="false"
+                        android:gravity="center"
+                        android:padding="16dp"
+                        android:text="Select Image"
+                        android:textColor="#ffffff"
+                        android:textSize="19dp" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+
+    </FrameLayout>
+
+
+
+
+</RelativeLayout>

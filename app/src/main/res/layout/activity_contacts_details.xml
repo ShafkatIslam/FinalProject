@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shafkatislam.finalproject.ContactsDetailsActivity"
+    android:background="@drawable/bg">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgrect"
+        >
+
+    </FrameLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            />
+
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btn_edit"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rect"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Update"
+            android:textColor="#ffffff"
+            android:textSize="19dp" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/rect"
+            android:layout_marginTop="18dp"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Delete"
+            android:textColor="#ffffff"
+            android:textSize="19dp" />
+
+        <Button
+            android:id="@+id/btn_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/linearLayout2"
+            android:background="@drawable/rect"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Edit"
+            android:textColor="#ffffff"
+            android:textSize="19dp" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="-100dp"
+            android:id="@+id/linearLayout2">
+
+            <EditText
+                android:id="@+id/etxt_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="220dp"
+                android:background="@drawable/rect1"
+                android:drawableLeft="@drawable/user"
+                android:drawablePadding="16dp"
+                android:hint="Name"
+                android:paddingBottom="16dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="16dp"
+                android:textColor="#fff"
+                android:textColorHint="#ffffff"></EditText>
+
+            <EditText
+                android:id="@+id/etxt_cell"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rect1"
+                android:drawableLeft="@drawable/email"
+                android:drawablePadding="16dp"
+                android:hint="Cell"
+                android:paddingBottom="16dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="16dp"
+                android:textColor="#fff"
+                android:textColorHint="#ffffff"
+
+                ></EditText>
+
+            <EditText
+                android:id="@+id/etxt_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rect1"
+                android:drawableLeft="@drawable/ic_mail_outline_black_24dp"
+                android:drawablePadding="16dp"
+                android:hint="Email"
+                android:paddingBottom="16dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="16dp"
+                android:textColor="#fff"
+                android:textColorHint="#ffffff"></EditText>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

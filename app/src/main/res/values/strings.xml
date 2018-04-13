@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="alert_name">Info Bank</string>
+    <string name="message_name">Do you want to exit?</string>
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shafkatislam.finalproject.ProfileActivity"
+    android:background="@drawable/bg">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgrect"
+        >
+
+
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        >
+
+
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/layout1"
+            android:background="@android:drawable/zoom_plate"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_add_contact"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/rect1"
+                android:drawableLeft="@mipmap/ic_phone"
+                android:text="Add Contact"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@android:drawable/zoom_plate"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_view"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/rect1"
+                android:drawableLeft="@mipmap/ic_phone"
+                android:text="View Contact"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout3"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@id/layout2"
+            android:background="@android:drawable/zoom_plate"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_signout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/rect1"
+                android:drawableLeft="@mipmap/ic_phone"
+                android:text="Sign out"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
